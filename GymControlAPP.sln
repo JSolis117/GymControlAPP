@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymControlAPP", "GymControlAPP\GymControlAPP.csproj", "{BB88EBA7-F69F-4AA6-9CA2-978BD9BC71FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB88EBA7-F69F-4AA6-9CA2-978BD9BC71FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB88EBA7-F69F-4AA6-9CA2-978BD9BC71FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB88EBA7-F69F-4AA6-9CA2-978BD9BC71FE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BB88EBA7-F69F-4AA6-9CA2-978BD9BC71FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB88EBA7-F69F-4AA6-9CA2-978BD9BC71FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB88EBA7-F69F-4AA6-9CA2-978BD9BC71FE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D06E3CE7-959B-4444-906A-29D13ADA5495}
+	EndGlobalSection
+EndGlobal
