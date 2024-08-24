@@ -2,15 +2,19 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GymControlAPP.Views.LoginPage"
-             Title="LoginPage">
+             Title="Ingresa"
+             BackgroundImageSource="bg">
 
     <VerticalStackLayout>
-        <Entry x:Name="TxtUserName" Margin="0,30,0,10" Placeholder="Username/Email" Keyboard="Email" FontSize="25" />
-        <Entry x:Name="TxtPassword" Placeholder="Password" Keyboard="Text" FontSize="25" IsPassword="True" />
-        <Switch x:Name="SwShowPassword" IsToggled="False" Toggled="SwShowPassword_Toggled" />
         
-        <Button x:Name="BtnLogin" Text="LOGIN" BackgroundColor="Green" Margin="0,30,0,0" />
-        <Button x:Name="BtnSignUp" Text="Sign Up" Margin="0,20,0, 20" Clicked="BtnSignUp_Clicked" />
+        
+               
+        <Entry x:Name="TxtUserName" Margin="20,20,30,8" Placeholder="Username/Email" Keyboard="Email" FontSize="25" />
+        <Entry x:Name="TxtPassword" Margin="20,20,30,8"  Placeholder="Password" Keyboard="Text" FontSize="25" IsPassword="True" />
+        <Switch x:Name="SwShowPassword" IsToggled="False" Toggled="SwShowPassword_Toggled" />
+
+        <Button x:Name="BtnLogin" Text="LOGIN"  BackgroundColor="Green" Margin="20,10,20, 20" Clicked="BtnLogin_Clicked"  />
+        <Button x:Name="BtnSignUp" Text="Sign Up" Margin="50,10,50,20" Clicked="BtnSignUp_Clicked" />
         
     </VerticalStackLayout>
 </ContentPage>
