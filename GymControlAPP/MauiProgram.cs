@@ -7,7 +7,7 @@ namespace GymControlAPP
         public static MauiApp CreateMauiApp()
         {
             var builder = MauiApp.CreateBuilder();
-            builder
+            MauiAppBuilder mauiAppBuilder = builder
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
                 {

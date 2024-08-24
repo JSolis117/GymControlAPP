@@ -8,9 +8,9 @@
         <Entry x:Name="TxtUserName" Margin="0,30,0,10" Placeholder="Username/Email" Keyboard="Email" FontSize="25" />
         <Entry x:Name="TxtPassword" Placeholder="Password" Keyboard="Text" FontSize="25" IsPassword="True" />
         <Switch x:Name="SwShowPassword" IsToggled="False" Toggled="SwShowPassword_Toggled" />
-
+        
         <Button x:Name="BtnLogin" Text="LOGIN" BackgroundColor="Green" Margin="0,30,0,0" />
-
-
+        <Button x:Name="BtnSignUp" Text="Sign Up" Margin="0,20,0, 20" Clicked="BtnSignUp_Clicked" />
+        
     </VerticalStackLayout>
 </ContentPage>

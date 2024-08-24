@@ -1,12 +1,12 @@
 namespace GymControlAPP.Views;
-public partial class LoginPage: ContentPage
+public partial class LoginPage : ContentPage
 {
     public LoginPage()
     {
         InitializeComponent();
     }
 
-    private void SwShowPassword_Toggled(object sender, ToggledEventArgs e)
+    public async void SwShowPassword_Toggled(object sender, ToggledEventArgs e)
     {
         TxtPassword.IsPassword = true;
 
@@ -21,4 +21,6 @@ public partial class LoginPage: ContentPage
     {
         await Navigation.PushAsync(new UserSignUpPage());
     }
+
 }
+
